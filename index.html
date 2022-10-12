@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mister Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+  <div class="game-over hide">
+    <h1>Good Job! 💪</h1>
+    <button onclick="initGame()">Restart</button>
+  </div>    
+  <h1 class="title">Collect those Balls</h1>
+  <div class="counter-balls"></div>
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+
+  <script src="js/util.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
